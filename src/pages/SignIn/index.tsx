@@ -47,7 +47,6 @@ const SignIn: React.FC = () => {
           email: data.email,
           password: data.password,
         });
-        console.log('uhul');
       } catch (err) {
         console.log(err)
         if (err instanceof Yup.ValidationError) {
